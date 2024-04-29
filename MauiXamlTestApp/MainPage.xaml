@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Button 
+                x:Name="BtnTestPageNavigate"
+                Clicked="BtnTestPageNavigate_Clicked"
+                Text="Go to Test page" />
+
+            <Label
+                HorizontalOptions="Center" 
+		        Text="Go to Test page 2"
+		        TextColor="Blue"
+                TextDecorations="Underline"	
+            >    
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Button 
+                x:Name="BtnSearchNavigate"
+                Clicked="BtnSearchPageNavigate_Clicked"
+                Text="Go to Search page" />
+
+            <Button 
+                x:Name="BtnLearningPageNavigate"
+                Clicked="BtnLearningPageNavigate_Clicked"
+                Text="Go to Learning page" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
