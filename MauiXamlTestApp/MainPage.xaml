@@ -34,6 +34,11 @@
                 Clicked="BtnLearningPageNavigate_Clicked"
                 Text="Go to Learning page" />
 
+            <Button 
+                x:Name="BtnFlyoutPageMainNavigate"
+                Clicked="BtnFlyoutPageMainNavigate_Clicked"
+                Text="Go to Flyout main page" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
