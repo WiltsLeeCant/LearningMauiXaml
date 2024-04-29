@@ -12,6 +12,12 @@
             //MainPage = new NavigationPage(new TestPage()); // Page for navigation areas programtically, changed by adding/removing from stack.
             //MainPage = new FlyoutPageMain(); // Flyout pages from the left.
             //MainPage = new TabbedPageMain(); // Tabs areas.
+
+            //MainPage = new AbsoluteLayoutMain();
+            //MainPage = new FlexLayoutMain();
+            //MainPage = new GridLayoutMain();
+            //MainPage = new StackLayoutMain();
+            //MainPage = new H_V_StackLayout();
         }
     }
 }

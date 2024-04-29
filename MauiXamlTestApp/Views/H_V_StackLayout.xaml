@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.H_V_StackLayout"
+             Title="H_V_StackLayout">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Padding="20">
+            <Button Text="Test Button" />
+            <Button Text="Test Button 2" />
+            <Button Text="Test Button 3" />
+            <Button Text="Test Button 4" />
+            <Button Text="Test Button 5" />
+            <Button Text="Test Button 6" />
+            <Button Text="Test Button 7" />
+            <Button Text="Test Button 8" />
+            <Button Text="Test Button 9" />
+            <Button Text="Test Button 10" />
+            <Button Text="Test Button 11" />
+            <Button Text="Test Button 12" />
+            <Button Text="Test Button 13" />
+            <Button Text="Test Button 14" />
+            <Button Text="Test Button 15" />
+            <Button Text="Test Button 16" />
+            <Button Text="Test Button 17" />
+            <Button Text="Test Button 18" />
+            <Button Text="Test Button 19" />
+            <Button Text="Test Button 20" />
+            <Button Text="Test Button 21" />
+            <Button Text="Test Button 22" />
+            <Button Text="Test Button 23" />
+            <Button Text="Test Button 24" />
+        </VerticalStackLayout>
+
+        <!--<HorizontalStackLayout Spacing="10" Padding="20">
+            <Button Text="Test Button" />
+            <Button Text="Test Button 2" />
+            <Button Text="Test Button 3" />
+            <Button Text="Test Button 4" />
+            <Button Text="Test Button 5" />
+            <Button Text="Test Button 6" />
+            <Button Text="Test Button 7" />
+            <Button Text="Test Button 8" />
+            <Button Text="Test Button 9" />
+            <Button Text="Test Button 10" />
+            <Button Text="Test Button 11" />
+            <Button Text="Test Button 12" />
+            <Button Text="Test Button 13" />
+            <Button Text="Test Button 14" />
+            <Button Text="Test Button 15" />
+            <Button Text="Test Button 16" />
+            <Button Text="Test Button 17" />
+            <Button Text="Test Button 18" />
+            <Button Text="Test Button 19" />
+            <Button Text="Test Button 20" />
+            <Button Text="Test Button 21" />
+            <Button Text="Test Button 22" />
+            <Button Text="Test Button 23" />
+            <Button Text="Test Button 24" />
+        </HorizontalStackLayout>-->
+    </ScrollView>
+</ContentPage>
+    
+<!-- More performant than usual will stack either vertical or horizontal -->

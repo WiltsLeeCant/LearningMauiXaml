@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.AbsoluteLayoutMain"
+             Title="AbsoluteLayoutMain">
+    <AbsoluteLayout>
+        <Button Text="1" AbsoluteLayout.LayoutBounds="10, 20, 200, 50" />
+        <Button Text="2" AbsoluteLayout.LayoutBounds="10, 90, 300, .2" AbsoluteLayout.LayoutFlags="HeightProportional" />
+        <Button Text="3" AbsoluteLayout.LayoutBounds="10, 300, .4, .2" AbsoluteLayout.LayoutFlags="HeightProportional" />
+    </AbsoluteLayout>
+</ContentPage>
+    
+<!-- Helps position and size children based on parents. Layout bounds increases based on the ones above. -->

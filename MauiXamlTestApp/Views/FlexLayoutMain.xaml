@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.FlexLayoutMain"
+             Title="FlexLayoutMain">
+    <FlexLayout Direction="RowReverse">
+        <Button Text="1" FlexLayout.Grow="1" FlexLayout.Order="6" />
+        <Button Text="2" FlexLayout.Grow="1" FlexLayout.Order="5"/>
+        <Button Text="3" FlexLayout.Grow="1" FlexLayout.Order="4"/>
+        <Button Text="4" FlexLayout.Grow="1" FlexLayout.Order="3"/>
+        <Button Text="5" FlexLayout.Grow="1" FlexLayout.Order="2"/>
+        <Button Text="6" FlexLayout.Grow="1" FlexLayout.Order="1"/>
+    </FlexLayout>
+</ContentPage>
+    
+<!-- Children can be stacked whe not possible. Also loads of power with how to position items. -->
