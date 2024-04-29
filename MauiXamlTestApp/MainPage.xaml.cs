@@ -22,6 +22,11 @@
             await Shell.Current.GoToAsync(nameof(TestPage));
         }
 
+        private async void BtnTabbedPageMainNavigate_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(TabbedPageMain));
+        }
+
         private async void BtnSearchPageNavigate_Clicked(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync(nameof(SearchPage));

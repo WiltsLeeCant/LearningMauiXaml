@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiXamlTestApp.MainPage">
-
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -38,6 +37,11 @@
                 x:Name="BtnFlyoutPageMainNavigate"
                 Clicked="BtnFlyoutPageMainNavigate_Clicked"
                 Text="Go to Flyout main page" />
+
+            <Button 
+                x:Name="BtnTabbedPageMainNavigate"
+                Clicked="BtnTabbedPageMainNavigate_Clicked"
+                Text="Go to Tabbed main page" />
 
         </VerticalStackLayout>
     </ScrollView>

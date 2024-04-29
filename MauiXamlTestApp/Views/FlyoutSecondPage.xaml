@@ -11,3 +11,5 @@
             HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>
+
+<!-- Used for popout pages on the left -->

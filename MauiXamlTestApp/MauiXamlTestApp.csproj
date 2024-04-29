@@ -67,8 +67,14 @@
 	  <Compile Update="Views\FlyoutPageMain.xaml.cs">
 	    <DependentUpon>FlyoutPageMain.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\NavigationPageMain.xaml.cs">
+	    <DependentUpon>NavigationPageMain.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\SearchPage.xaml.cs">
 	    <DependentUpon>SearchPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\TabbedPageMain.xaml.cs">
+	    <DependentUpon>TabbedPageMain.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -94,7 +100,13 @@
 	  <MauiXaml Update="Views\LearningPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\NavigationPageMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\SearchPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TabbedPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\TestPage.xaml">
