@@ -11,112 +11,112 @@
     <MauiXaml Update="Views\AbsoluteLayoutMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\ActivityIndicator.xaml">
+    <MauiXaml Update="Views\ActivityIndicatorMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Border.xaml">
+    <MauiXaml Update="Views\BorderMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\BoxView.xaml">
+    <MauiXaml Update="Views\BoxViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\ButtonView.xaml">
+    <MauiXaml Update="Views\ButtonViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\CarouselView.xaml">
+    <MauiXaml Update="Views\CarouselViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\CheckboxView.xaml">
+    <MauiXaml Update="Views\CheckboxViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\CollectionView.xaml">
+    <MauiXaml Update="Views\CollectionViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Datepicker.xaml">
+    <MauiXaml Update="Views\DatepickerMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\DetailsPage.xaml">
+    <MauiXaml Update="Views\DetailsPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\EditorView.xaml">
+    <MauiXaml Update="Views\EditorViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\EllipseView.xaml">
+    <MauiXaml Update="Views\EllipseViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\EntryView.xaml">
+    <MauiXaml Update="Views\EntryViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\FlexLayoutMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\FlyoutFirstPage.xaml">
+    <MauiXaml Update="Views\FlyoutFirstPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\FlyoutPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\FlyoutSecondPage.xaml">
+    <MauiXaml Update="Views\FlyoutSecondPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\FlyoutSubPage.xaml">
+    <MauiXaml Update="Views\FlyoutSubPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\GraphicsView.xaml">
+    <MauiXaml Update="Views\GraphicsViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\GridLayoutMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\H_V_StackLayout.xaml">
+    <MauiXaml Update="Views\H_V_StackLayoutMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\ImageButtonView.xaml">
+    <MauiXaml Update="Views\ImageButtonViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\IndicatorViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\LearningPage.xaml">
+    <MauiXaml Update="Views\LearningPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\LineView.xaml">
+    <MauiXaml Update="Views\LineViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\ListViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\MapView.xaml">
+    <MauiXaml Update="Views\MapViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\NavigationPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\PathView.xaml">
+    <MauiXaml Update="Views\PathViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\PickerView.xaml">
+    <MauiXaml Update="Views\PickerViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\PolygonView.xaml">
+    <MauiXaml Update="Views\PolygonViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\PolylineView.xaml">
+    <MauiXaml Update="Views\PolylineViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\ProgressBarView.xaml">
+    <MauiXaml Update="Views\ProgressBarViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\RadioButtonView.xaml">
+    <MauiXaml Update="Views\RadioButtonViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\RectangleView.xaml">
+    <MauiXaml Update="Views\RectangleViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\RefreshViewMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\SearchPage.xaml">
+    <MauiXaml Update="Views\SearchPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\StackLayoutMain.xaml">
@@ -125,10 +125,10 @@
     <MauiXaml Update="Views\TabbedPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\TestPage.xaml">
+    <MauiXaml Update="Views\TestPageMain.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\TestPage2.xaml">
+    <MauiXaml Update="Views\TestPage2Main.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

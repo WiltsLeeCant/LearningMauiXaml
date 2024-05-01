@@ -22,13 +22,11 @@ namespace MauiXamlTestApp
 #endif
             builder.Services.AddSingleton(Connectivity.Current);
 
-            builder.Services.AddTransient<DetailsPage>();
+            builder.Services.AddTransient<DetailsPageMain>();
             builder.Services.AddTransient<DetailsViewModel>();
-            builder.Services.AddTransient<LearningPage>();
+            builder.Services.AddTransient<LearningPageMain>();
             builder.Services.AddTransient<LearningViewModel>();
-            builder.Services.AddTransient<RefreshViewMain>();
-            builder.Services.AddTransient<ClothViewModel>();
-            builder.Services.AddTransient<SearchPage>();
+            builder.Services.AddTransient<SearchPageMain>();
             builder.Services.AddTransient<SearchPageModel>();
 
             return builder.Build();

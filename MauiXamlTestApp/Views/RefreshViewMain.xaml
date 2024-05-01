@@ -8,21 +8,7 @@
             Text="Refresh view"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-
-        <RefreshView 
-            IsRefreshing="{Binding IsRefreshing}"
-             Command="{Binding RefreshCommand}"
-        >
-            <ScrollView>
-                <CollectionView 
-                    ItemTemplate="{StaticResource clothResource}"
-                    ItemsSource="{Binding Products}"
-                >
-                    
-                </CollectionView>
-            </ScrollView>
-        </RefreshView>
     </VerticalStackLayout>
 </ContentPage>
 
-<!-- https://www.youtube.com/watch?v=ntA_90ZbpkY -->
+<!-- See inside the Learning page, it basically refreshes the page with updated data -->

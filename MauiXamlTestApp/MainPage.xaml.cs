@@ -14,12 +14,12 @@
 
         private async void BtnLearningPageNavigate_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(LearningPage));
+            await Shell.Current.GoToAsync(nameof(LearningPageMain));
         }
 
         private async void BtnTestPageNavigate_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(TestPage));
+            await Shell.Current.GoToAsync(nameof(TestPageMain));
         }
 
         private async void BtnTabbedPageMainNavigate_Clicked(object sender, EventArgs e)
@@ -29,12 +29,12 @@
 
         private async void BtnSearchPageNavigate_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(SearchPage));
+            await Shell.Current.GoToAsync(nameof(SearchPageMain));
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
         {
-            await Navigation.PushAsync(new TestPage2());
+            await Navigation.PushAsync(new TestPage2Main());
         }
     }
 }

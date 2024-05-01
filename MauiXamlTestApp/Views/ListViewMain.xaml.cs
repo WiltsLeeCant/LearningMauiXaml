@@ -1,8 +1,8 @@
 namespace MauiXamlTestApp;
 
-public partial class ListViewMain : ContentPage
+public partial class ListViewMainMain : ContentPage
 {
-	public ListViewMain()
+	public ListViewMainMain()
 	{
 		InitializeComponent();
 	}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.RadioButtonViewMain"
+             Title="RadioButtonView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Radio buttons"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="What's your favorite animal?" />
+        <RadioButton Content="Cat" />
+        <RadioButton Content="Dog" />
+        <RadioButton Content="Elephant" />
+        <RadioButton Content="Monkey"
+                 IsChecked="true" />
+    </VerticalStackLayout>
+</ContentPage>
+    
+<!-- Radio buttons. -->

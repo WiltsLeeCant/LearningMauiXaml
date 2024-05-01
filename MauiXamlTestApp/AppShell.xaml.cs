@@ -6,16 +6,16 @@
         {
             InitializeComponent();
 
-            Routing.RegisterRoute(nameof(DetailsPage), typeof(DetailsPage));
+            Routing.RegisterRoute(nameof(DetailsPageMain), typeof(DetailsPageMain));
             Routing.RegisterRoute(nameof(FlyoutFirstPage), typeof(FlyoutFirstPage));
             Routing.RegisterRoute(nameof(FlyoutPageMain), typeof(FlyoutPageMain));
-            Routing.RegisterRoute(nameof(FlyoutSecondPage), typeof(FlyoutSecondPage));
+            Routing.RegisterRoute(nameof(FlyoutSecondPageMain), typeof(FlyoutSecondPageMain));
             Routing.RegisterRoute(nameof(FlyoutSubPage), typeof(FlyoutSubPage));
-            Routing.RegisterRoute(nameof(LearningPage), typeof(LearningPage));
+            Routing.RegisterRoute(nameof(LearningPageMain), typeof(LearningPageMain));
             Routing.RegisterRoute(nameof(TabbedPageMain), typeof(TabbedPageMain));
-            Routing.RegisterRoute(nameof(TestPage), typeof(TestPage));
-            Routing.RegisterRoute(nameof(TestPage2), typeof(TestPage2));
-            Routing.RegisterRoute(nameof(SearchPage), typeof(SearchPage));
+            Routing.RegisterRoute(nameof(TestPageMain), typeof(TestPageMain));
+            Routing.RegisterRoute(nameof(TestPage2Main), typeof(TestPage2Main));
+            Routing.RegisterRoute(nameof(SearchPageMain), typeof(SearchPageMain));
         }
     }
 }

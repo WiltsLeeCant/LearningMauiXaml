@@ -16,6 +16,6 @@ public partial class FlyoutPageMain : FlyoutPage
             IsPresented = false;
         }
             
-        Detail = new NavigationPage(new FlyoutSecondPage());
+        Detail = new NavigationPage(new FlyoutSecondPageMain());
     }
 }

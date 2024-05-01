@@ -65,26 +65,110 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\ActivityIndicator.xaml.cs">
-	    <DependentUpon>ActivityIndicator.xaml</DependentUpon>
+	  <Compile Update="Views\ActivityIndicatorMain.xaml.cs">
+	    <DependentUpon>ActivityIndicatorMain.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Border.xaml.cs">
-	    <DependentUpon>Border.xaml</DependentUpon>
+	  <Compile Update="Views\BorderMain.xaml.cs">
+	    <DependentUpon>BorderMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\BoxViewMain.xaml.cs">
+	    <DependentUpon>BoxViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ButtonViewMain.xaml.cs">
+	    <DependentUpon>ButtonViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\CarouselViewMain.xaml.cs">
+	    <DependentUpon>CarouselViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\CheckboxViewMain.xaml.cs">
+	    <DependentUpon>CheckboxViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\CollectionViewMain.xaml.cs">
+	    <DependentUpon>CollectionViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\DatepickerMain.xaml.cs">
+	    <DependentUpon>DatepickerMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\DetailsPageMain.xaml.cs">
+	    <DependentUpon>DetailsPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\EditorViewMain.xaml.cs">
+	    <DependentUpon>EditorViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\EllipseViewMain.xaml.cs">
+	    <DependentUpon>EllipseViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\EntryViewMain.xaml.cs">
+	    <DependentUpon>EntryViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\FlyoutFirstPageMain.xaml.cs">
+	    <DependentUpon>FlyoutFirstPageMain.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\FlyoutPageMain.xaml.cs">
 	    <DependentUpon>FlyoutPageMain.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\FlyoutSecondPageMain.xaml.cs">
+	    <DependentUpon>FlyoutSecondPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\FlyoutSubPageMain.xaml.cs">
+	    <DependentUpon>FlyoutSubPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\GraphicsViewMain.xaml.cs">
+	    <DependentUpon>GraphicsViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\H_V_StackLayoutMain.xaml.cs">
+	    <DependentUpon>H_V_StackLayoutMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ImageButtonViewMain.xaml.cs">
+	    <DependentUpon>ImageButtonViewMain.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\IndicatorViewMain.xaml.cs">
 	    <DependentUpon>IndicatorViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\LearningPageMain.xaml.cs">
+	    <DependentUpon>LearningPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\LineViewMain.xaml.cs">
+	    <DependentUpon>LineViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\MapViewMain.xaml.cs">
+	    <DependentUpon>MapViewMain.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\NavigationPageMain.xaml.cs">
 	    <DependentUpon>NavigationPageMain.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\SearchPage.xaml.cs">
-	    <DependentUpon>SearchPage.xaml</DependentUpon>
+	  <Compile Update="Views\PathViewMain.xaml.cs">
+	    <DependentUpon>PathViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PickerViewMain.xaml.cs">
+	    <DependentUpon>PickerViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PolygonViewMain.xaml.cs">
+	    <DependentUpon>PolygonViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\PolylineViewMain.xaml.cs">
+	    <DependentUpon>PolylineViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ProgressBarViewMain.xaml.cs">
+	    <DependentUpon>ProgressBarViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\RadioButtonViewMain.xaml.cs">
+	    <DependentUpon>RadioButtonViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\RectangleViewMain.xaml.cs">
+	    <DependentUpon>RectangleViewMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\SearchPageMain.xaml.cs">
+	    <DependentUpon>SearchPageMain.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\TabbedPageMain.xaml.cs">
 	    <DependentUpon>TabbedPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\TestPage2Main.xaml.cs">
+	    <DependentUpon>TestPage2Main.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\TestPageMain.xaml.cs">
+	    <DependentUpon>TestPageMain.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -92,112 +176,112 @@
 	  <MauiXaml Update="Views\AbsoluteLayoutMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\ActivityIndicator.xaml">
+	  <MauiXaml Update="Views\ActivityIndicatorMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Border.xaml">
+	  <MauiXaml Update="Views\BorderMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\BoxView.xaml">
+	  <MauiXaml Update="Views\BoxViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\ButtonView.xaml">
+	  <MauiXaml Update="Views\ButtonViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\CarouselView.xaml">
+	  <MauiXaml Update="Views\CarouselViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\CheckboxView.xaml">
+	  <MauiXaml Update="Views\CheckboxViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\CollectionView.xaml">
+	  <MauiXaml Update="Views\CollectionViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Datepicker.xaml">
+	  <MauiXaml Update="Views\DatepickerMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\DetailsPage.xaml">
+	  <MauiXaml Update="Views\DetailsPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\EditorView.xaml">
+	  <MauiXaml Update="Views\EditorViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\EllipseView.xaml">
+	  <MauiXaml Update="Views\EllipseViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\EntryView.xaml">
+	  <MauiXaml Update="Views\EntryViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\FlexLayoutMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\FlyoutFirstPage.xaml">
+	  <MauiXaml Update="Views\FlyoutFirstPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\FlyoutPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\FlyoutSecondPage.xaml">
+	  <MauiXaml Update="Views\FlyoutSecondPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\FlyoutSubPage.xaml">
+	  <MauiXaml Update="Views\FlyoutSubPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\GraphicsView.xaml">
+	  <MauiXaml Update="Views\GraphicsViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\GridLayoutMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\H_V_StackLayout.xaml">
+	  <MauiXaml Update="Views\H_V_StackLayoutMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\ImageButtonView.xaml">
+	  <MauiXaml Update="Views\ImageButtonViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\IndicatorViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\LearningPage.xaml">
+	  <MauiXaml Update="Views\LearningPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\LineView.xaml">
+	  <MauiXaml Update="Views\LineViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\ListViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\MapView.xaml">
+	  <MauiXaml Update="Views\MapViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NavigationPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PathView.xaml">
+	  <MauiXaml Update="Views\PathViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PickerView.xaml">
+	  <MauiXaml Update="Views\PickerViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PolygonView.xaml">
+	  <MauiXaml Update="Views\PolygonViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\PolylineView.xaml">
+	  <MauiXaml Update="Views\PolylineViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\ProgressBarView.xaml">
+	  <MauiXaml Update="Views\ProgressBarViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\RadioButtonView.xaml">
+	  <MauiXaml Update="Views\RadioButtonViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\RectangleView.xaml">
+	  <MauiXaml Update="Views\RectangleViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\RefreshViewMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\SearchPage.xaml">
+	  <MauiXaml Update="Views\SearchPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\StackLayoutMain.xaml">
@@ -206,10 +290,10 @@
 	  <MauiXaml Update="Views\TabbedPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\TestPage.xaml">
+	  <MauiXaml Update="Views\TestPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\TestPage2.xaml">
+	  <MauiXaml Update="Views\TestPage2Main.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

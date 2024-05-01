@@ -7,7 +7,7 @@
     <TabbedPage.Children>
         <NavigationPage Title="Navigation page">
             <x:Arguments>
-                <layouts:ButtonView />
+                <layouts:ButtonViewMain />
             </x:Arguments>
         </NavigationPage>
     </TabbedPage.Children>

@@ -1,13 +1,9 @@
-using MauiXamlTestApp.ViewModels;
-
 namespace MauiXamlTestApp;
 
 public partial class RefreshViewMain : ContentPage
 {
-    public RefreshViewMain(ClothViewModel model)
+    public RefreshViewMain()
 	{
 		InitializeComponent();
-
-		BindingContext = model;
 	}
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.SearchPageMain"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="0">
+            <Label   
+                FontAttributes="Bold"
+                Text="Label:"
+                TextColor="Black"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+
+            <Label            
+                FontAttributes="Italic"
+                Text="{Binding Label}"
+                TextColor="Black"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+<!-- Page for searching items. -->
