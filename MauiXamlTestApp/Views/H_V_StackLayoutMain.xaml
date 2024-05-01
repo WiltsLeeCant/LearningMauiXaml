@@ -60,4 +60,4 @@
     </ScrollView>
 </ContentPage>
     
-<!-- More performant than usual will stack either vertical or horizontal -->
+<!-- More performant than usual will stack either vertical or horizontal. -->

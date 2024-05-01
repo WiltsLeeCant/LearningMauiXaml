@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.Views.StepperViewMain"
+             Title="StepperViewMain">
+    <VerticalStackLayout>
+        <Label 
+            Text="Stepper"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label x:Name="_rotatingLabel"
+               Text="ROTATING TEXT"
+               FontSize="18"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <Stepper Maximum="360"
+                 Increment="30"
+                 HorizontalOptions="Center"
+                 ValueChanged="OnStepperValueChanged" />
+        <Label x:Name="_displayLabel"
+               Text="(uninitialised)"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
+    
+<!-- A basic stepper control. -->

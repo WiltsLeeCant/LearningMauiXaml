@@ -1,5 +1,6 @@
 ﻿using MauiXamlTestApp.ViewModels;
 using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Foldable;
 
 namespace MauiXamlTestApp
 {
@@ -15,6 +16,7 @@ namespace MauiXamlTestApp
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 })
+                .UseFoldable()
                 .UseMauiMaps();
 
 #if DEBUG
@@ -28,6 +30,8 @@ namespace MauiXamlTestApp
             builder.Services.AddTransient<LearningViewModel>();
             builder.Services.AddTransient<SearchPageMain>();
             builder.Services.AddTransient<SearchPageModel>();
+            builder.Services.AddTransient<TimePickerViewMain>();
+            builder.Services.AddTransient<TimePickerViewModel>();
 
             return builder.Build();
         }

@@ -15,3 +15,5 @@
                     VerticalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>
+
+<!-- Buttons just for images. -->

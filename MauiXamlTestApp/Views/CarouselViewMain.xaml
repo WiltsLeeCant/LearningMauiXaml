@@ -40,4 +40,4 @@
     </VerticalStackLayout>
 </ContentPage>
     
-<!-- View for Carousel. -->
+<!-- A list of items we can alternate through. -->

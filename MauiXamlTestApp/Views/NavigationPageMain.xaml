@@ -14,4 +14,4 @@
 </TabbedPage>
     
     
-<!-- These pages you set in the app shell and it goes backwards and forwards in order. -->
+<!-- Page for navigation areas programtically, changed by adding/removing from stack. -->

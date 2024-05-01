@@ -13,3 +13,5 @@
             Text="Basic button" />
     </VerticalStackLayout>
 </ContentPage>
+
+<!-- A button view. -->
