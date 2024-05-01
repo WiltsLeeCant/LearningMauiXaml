@@ -14,7 +14,8 @@ namespace MauiXamlTestApp
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                })
+                .UseMauiMaps();
 
 #if DEBUG
     		builder.Logging.AddDebug();
@@ -25,6 +26,8 @@ namespace MauiXamlTestApp
             builder.Services.AddTransient<DetailsViewModel>();
             builder.Services.AddTransient<LearningPage>();
             builder.Services.AddTransient<LearningViewModel>();
+            builder.Services.AddTransient<RefreshViewMain>();
+            builder.Services.AddTransient<ClothViewModel>();
             builder.Services.AddTransient<SearchPage>();
             builder.Services.AddTransient<SearchPageModel>();
 

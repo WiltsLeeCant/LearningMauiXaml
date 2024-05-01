@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.ImageButtonView"
+             Title="ImageButtonView">
+    <VerticalStackLayout>
+        <Label 
+            Text="Image Button"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <ImageButton Source="dotnet_bot.png"
+                    Clicked="OnImageButtonClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

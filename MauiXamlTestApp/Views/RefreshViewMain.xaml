@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiXamlTestApp.RefreshViewMain"
+             Title="RefreshViewMain">
+    <VerticalStackLayout>
+        <Label 
+            Text="Refresh view"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <RefreshView 
+            IsRefreshing="{Binding IsRefreshing}"
+             Command="{Binding RefreshCommand}"
+        >
+            <ScrollView>
+                <CollectionView 
+                    ItemTemplate="{StaticResource clothResource}"
+                    ItemsSource="{Binding Products}"
+                >
+                    
+                </CollectionView>
+            </ScrollView>
+        </RefreshView>
+    </VerticalStackLayout>
+</ContentPage>
+
+<!-- https://www.youtube.com/watch?v=ntA_90ZbpkY -->

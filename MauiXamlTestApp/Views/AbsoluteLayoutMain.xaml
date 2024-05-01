@@ -4,6 +4,11 @@
              x:Class="MauiXamlTestApp.AbsoluteLayoutMain"
              Title="AbsoluteLayoutMain">
     <AbsoluteLayout>
+        <Label 
+            Text="Absolute layout"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
         <Button Text="1" AbsoluteLayout.LayoutBounds="10, 20, 200, 50" />
         <Button Text="2" AbsoluteLayout.LayoutBounds="10, 90, 300, .2" AbsoluteLayout.LayoutFlags="HeightProportional" />
         <Button Text="3" AbsoluteLayout.LayoutBounds="10, 300, .4, .2" AbsoluteLayout.LayoutFlags="HeightProportional" />
